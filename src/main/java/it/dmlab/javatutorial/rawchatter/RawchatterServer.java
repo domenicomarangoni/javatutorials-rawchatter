@@ -16,7 +16,7 @@ public class RawchatterServer extends Thread{
 	
 	
 	public RawchatterServer(int listeningPort) throws IOException{
-		System.out.println("Starting Rawchatter server");
+		System.out.println("Starting Rawchatter server v. 0.0.9");
 		srv=new ServerSocket(listeningPort);
 	} 
 	
